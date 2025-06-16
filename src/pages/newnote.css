@@ -1,0 +1,68 @@
+body{
+  margin:20px;
+}
+.divider{
+  margin-bottom: 25px;
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newnote{
+  margin:0;
+  font-size: 30px;
+}
+.closebtn{
+  font-size: 28px;
+  color: grey;
+}
+.closebtn:hover{
+  cursor: pointer;
+  color: rgb(42, 41, 41);
+}
+.noteform label{
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.noteform input,textarea{
+  width:100%;
+  padding:10px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+}
+.noteform textarea{
+  min-height: 200px;
+}
+.footer{
+  display: flex;
+  justify-content: flex-end;
+  gap:10px;
+}
+.buttons{
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#cancel-btn{
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+#submitbtn{
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+#cancel-btn:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+#submitbtn:hover{
+  background-color: #084f9b;
+}

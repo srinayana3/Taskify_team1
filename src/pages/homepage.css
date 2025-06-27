@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+.navbar,.page {
+  min-width: 600px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 50px;
+    font-size: 22px;
+}
+.navbar h3{
+    color: #007bff;
+    font-weight: bold;
+}
+.navbar button{
+    margin:15px 15px;
+    cursor:pointer;
+    color: #333;
+    background:none;
+    border:none;
+}
+.navbar button:hover{
+    color:#007bff;
+}
+.navbar .logout{
+    border:none;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.navbar .logout:hover{
+    background-color: #e17c7c;
+    color: black;
+}
+.divider{
+    margin-bottom: 0;
+}
+.page{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.page h2{
+    margin-bottom: 15px;
+    color:rgb(20, 20, 20);
+    font-size: 30px;
+    font-weight: bold;
+}
+.page button{
+    border:1px solid #9f9b9b;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.page button:hover{
+    background-color: #9b9c9c;
+    color: white;
+}
+.newtask{
+    background-color: #007bff;
+    color:white;
+}
+.page .newtask:hover{
+    background-color: #084f9b;
+}
